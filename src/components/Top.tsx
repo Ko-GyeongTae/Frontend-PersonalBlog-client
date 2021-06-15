@@ -1,15 +1,14 @@
 import { Header, Item } from "semantic-ui-react"
-//import Gnb from "./Gnb"
+import Gnb from "./Gnb"
+import styles from './Top.module.css'
 
 export default function Top() {
     return (
-        <div>
-            <div style={{ display: 'flex', paddingTop: 20 }}>
-                <div style={{ flex: '100px 0 0'}}>
-                    <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 80 }}/>
-                </div>
+        <div style={{ marginBottom: 40 }}>
+            <div style={{ display: 'flex', paddingTop: 40}}>
                 <Header as="h1">NEON</Header>
             </div>
+            <Gnb />
         </div>
     );
 }
