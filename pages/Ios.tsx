@@ -2,7 +2,7 @@ import React from 'react'
 import { Grid, Image } from 'semantic-ui-react'
 export default function Ios() {
     return (
-        <div>
+        <div style={{marginTop: 40}}>
             <Grid columns={2} divided>
                 <Grid.Row>
                     <Grid.Column style={{marginBottom: 20}}>
