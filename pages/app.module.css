@@ -1,0 +1,22 @@
+.side {
+    width: 200;
+    height: 800;
+    background-color: yellow;
+    position: 'relative';
+    margin-left: -150;
+}
+.side:hover {
+    background-color: red;
+}
+/*
+-webkit-animation-duration: 0.5s;
+-webkit-animation-name: slide;
+
+@-webkit-keyframes slide{
+    from {
+        margin-left: -200px;
+    } 
+    to {
+        margin-left: 0;
+    }
+}*/

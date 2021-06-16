@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m 'deploy to gh-pages' && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
     "@types/jest": "^26.0.23",
@@ -22,5 +23,6 @@
   },
   "devDependencies": {
     "typescript-plugin-css-modules": "^3.4.0"
-  }
+  },
+  "homepage": "https://Ko-GyeongTae.github.io/Frontend-PersonalBlog-client/"
 }
