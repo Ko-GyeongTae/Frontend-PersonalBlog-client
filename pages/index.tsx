@@ -25,33 +25,34 @@ export default function Home() {
       </Head>
       <div className={style.Container}>
         <div className={style.begin} style={{
-        backgroundPositionY : position / -3
+        backgroundPositionY : position / -1.2
       }}>
+        <div>
           <h1 className={style.titleText}>안녕하세요!</h1>
           <h2 className={style.subtitleText}>Blog Version 1.0</h2>
+          </div>
         </div>
-        <div className={style.desc}>
-          <p style={{
-          transform: `translateX(${position}px)`,
-        }}>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p style={{
+        <div className={style.desc} style={{
+          transform: `translateX(${position + 100}px)`,
+        }}>
+          <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 200 }}/>
+          <div>
+            <h1>Next JS!</h1>
+            <p>Next JS 프레임워크로 이루어져 있습니다.</p>
+          </div>
+        </div>
+        <div className={style.desc} style={{
+          transform: `translateX(${-position +1600}px)`,
+        }}>
+          <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 200 }}/>
+          <div>
+            <h1>Typescript!</h1>
+            <p>Javascript가 아닌 Typescript를 사용했습니다.</p>
+          </div>
+        </div>
+        <h1 style={{
             opacity: (position - 700) / 40
-          }}>홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-          <p>홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀홀</p>
-        </div>
+          }}></h1>
       </div>
     </div>
 

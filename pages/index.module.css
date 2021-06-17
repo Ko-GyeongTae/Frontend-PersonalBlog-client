@@ -9,22 +9,37 @@
     padding-top: 20px;
     font-size: 100px;
     color: white;
+    position: relative;
 }
 .subtitleText{
     padding-left: 20px;
     padding-top: 20px;
     font-size: 50px;
     color: white;
+    position: relative;
 }
 .begin {
     width: 1000px;
-    height: 400px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
     background-image: url('/images/aurora.jpg');
     background-repeat: no-repeat;
 }
 .desc {
+    display: flex;
+    width: 600px;
     font-weight: bold;
     font-size: 20px;
-    color: tomato;
-    left: -100px;
-  }
+    color: black;
+    margin-left: -500px;
+    margin-bottom: 50px;
+}
+.desc_rev {
+    display: flex;
+    width: 600px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    margin-left: 0px;
+}
