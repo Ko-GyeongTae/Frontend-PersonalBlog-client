@@ -1,0 +1,35 @@
+.post {
+    width: 500px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1); 
+    -o-transform:scale(1);  
+    transform:scale(1);
+    -webkit-transition:.5s;
+    -moz-transition:.5s;
+    -ms-transition:.5s;
+    -o-transition:.5s;
+    transition:.5s;
+    box-shadow: 5px, 5px, 5px;
+}
+.post:hover {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);   
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+}
+.image {
+    width: 140px;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    width: 460px;
+    height: 140px;
+}
