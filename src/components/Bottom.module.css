@@ -17,10 +17,10 @@
 
 @keyframes wave {
   0% {
-    margin-left: 0;
+    margin-left: -300px;
   }
   100% {
-    margin-left: -1600px;
+    margin-left: -1900px;
   }
 }
 
