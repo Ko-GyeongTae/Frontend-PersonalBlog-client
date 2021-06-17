@@ -1,6 +1,6 @@
 .side {
     flex-direction:column;
-    width: 200px;
+    width: 180px;
     height: 1000px, auto;
     background-color: black;
     position: fixed;
