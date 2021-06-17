@@ -1,0 +1,30 @@
+.Container {
+    width: 1000;
+    height: 2000;
+    align-items: center;
+    overflow: hidden;
+}
+.titleText {
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 100px;
+    color: white;
+}
+.subtitleText{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+}
+.begin {
+    width: 1000px;
+    height: 400px;
+    background-image: url('/images/aurora.jpg');
+    background-repeat: no-repeat;
+}
+.desc {
+    font-weight: bold;
+    font-size: 20px;
+    color: tomato;
+    left: -100px;
+  }
