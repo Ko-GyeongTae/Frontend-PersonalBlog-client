@@ -6,16 +6,29 @@ import style from './app.module.css';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <div className={`${style.side} card`}>
-        
+      <div style={{ width: '1000, auto', height: 'auto' }}>
+        <div className={ style.side }>
+          <ul>
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Home</a>
+            </li>
+            <li>
+              <a>Home</a>
+            </li>
+          </ul>
+        </div>
+        <div style={{ width: 1000, margin: '0 auto', alignContent: 'center' }}>
+          <Top />
+          <Component {...pageProps} />
+          <Bottom />
+        </div>
       </div>
-      <div style={{ width: 1000, margin: '0 auto', alignContent: 'center' }}>
-        <Top />
-        <Component {...pageProps} />
-        <Bottom />
-      </div>
-    </>
   )
 }
 

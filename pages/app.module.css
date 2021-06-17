@@ -1,22 +1,13 @@
 .side {
-    width: 200;
-    height: 800;
-    background-color: yellow;
-    position: 'relative';
-    margin-left: -150;
+    width: 180px;
+    height: 1000px, auto;
+    background-color: black;
+    position: absolute;
+    transition: 1s;
+    transform: translateX(-150px);
 }
 .side:hover {
-    background-color: red;
+    background-color: #f1f1f1;
+    transition: 1s;
+    transform: translateX(0px);
 }
-/*
--webkit-animation-duration: 0.5s;
--webkit-animation-name: slide;
-
-@-webkit-keyframes slide{
-    from {
-        margin-left: -200px;
-    } 
-    to {
-        margin-left: 0;
-    }
-}*/
