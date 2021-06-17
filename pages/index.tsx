@@ -35,7 +35,7 @@ export default function Home() {
         <div className={style.desc} style={{
           transform: `translateX(${position + 100}px)`,
         }}>
-          <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 200 }}/>
+          <img src={'https://blog.kakaocdn.net/dn/bojGJR/btqB2uK0pvO/iOVp5O0J8iE5mepxqSNHm0/img.png'} alt='logo' style={{ display: 'block', width: 200, paddingRight: 20 }}/>
           <div>
             <h1>Next JS!</h1>
             <p>Next JS 프레임워크로 이루어져 있습니다.</p>
@@ -44,7 +44,7 @@ export default function Home() {
         <div className={style.desc} style={{
           transform: `translateX(${-position +1600}px)`,
         }}>
-          <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 200 }}/>
+          <img src={'https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg'} alt='logo' style={{ display: 'block', width: 200, paddingRight: 20 }}/>
           <div>
             <h1>Typescript!</h1>
             <p>Javascript가 아닌 Typescript를 사용했습니다.</p>
