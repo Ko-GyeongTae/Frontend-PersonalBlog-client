@@ -4,24 +4,24 @@ import { useRouter } from 'next/router';
 export default function Gnb(){
     const router = useRouter();
     let activeItem;
-    if(router.pathname === '/Backend'){
+    if(router.pathname === '/Portfolio/Backend'){
         activeItem = 'Backend';
-    } else if(router.pathname === '/Frontend') {
+    } else if(router.pathname === '/Portfolio/Frontend') {
         activeItem = 'Frontend';
-    } else if(router.pathname === '/Android') {
+    } else if(router.pathname === '/Portfolio/Android') {
         activeItem = 'Android';
-    } else if(router.pathname === '/Ios'){
+    } else if(router.pathname === '/Portfolio/Ios'){
         activeItem = 'Ios';
     }
     function goLink(e, data){
         if(data.name === 'Backend'){
-            router.push('/Backend');
+            router.push('/Portfolio/Backend');
         } else if(data.name === 'Frontend'){
-            router.push('/Frontend');
+            router.push('/Portfolio/Frontend');
         } else if(data.name === 'Android'){
-            router.push('/Android');
+            router.push('/Portfolio/Android');
         } else if(data.name === 'Ios'){
-            router.push('/Ios');
+            router.push('/Portfolio/Ios');
         }
     }
     return (
