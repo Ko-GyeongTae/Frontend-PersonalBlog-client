@@ -4,16 +4,19 @@ export default function Sidebar() {
 
     return (
         <div className={style.side}>
-            <a href={'/'}>
-                <div className={style.sideInner}>
-                    <h1>처음으로</h1>
-                </div>
-            </a>
-            <a>
-                <div className={style.sideInner}>
-                    <h1>개발자소개</h1>
-                </div>
-            </a>
+            <div className={style.sideInner}>
+                <h1>MENU</h1>
+                <a href={'/'}>
+                    <div className={style.sideInnerBox}>
+                        <h2>처음으로</h2>
+                    </div>
+                </a>
+                <a href={'/Profile'}>
+                    <div className={style.sideInnerBox}>
+                        <h2>개발자소개</h2>
+                    </div>
+                </a>
+            </div>
         </div>
     )
 }

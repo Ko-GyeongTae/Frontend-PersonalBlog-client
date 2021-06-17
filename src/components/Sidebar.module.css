@@ -1,18 +1,31 @@
 .side {
-    width: 180px;
+    flex-direction:column;
+    width: 200px;
     height: 1000px, auto;
     background-color: black;
-    position: absolute;
+    position: fixed;
+    margin-top: 50px;
     transition: 1s;
     transform: translateX(-150px);
+    text-align: center;
+    padding-top: 20px;
 }
 .side:hover {
     background-color: white;
     transition: 1s;
     transform: translateX(0px);
 }
-.sideInner {
+.sidInner {
+    width: 180px;
+    align-items: center;
+    height: 500px;
+}
+.sideInnerBox {
     width: 180px;
     height: 80px;
     color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
 }
