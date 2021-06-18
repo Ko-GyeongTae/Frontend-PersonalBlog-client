@@ -47,3 +47,11 @@
     margin-left: 0px;
     text-justify: distribute;
 }
+.begin_repo {
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 5px 5px black;
+    background-image: url('https://github.githubassets.com/images/modules/site/social-cards/github-social.png');
+    object-fit: scale-down;
+}
