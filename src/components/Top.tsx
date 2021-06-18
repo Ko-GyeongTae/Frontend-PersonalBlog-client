@@ -17,7 +17,7 @@ export default function Top() {
                 />
             </div>
             <div className={styles.landerImage}>
-                <h1 style={{fontSize: 60, paddingLeft: 10}}>NEON</h1>
+                <h1 style={{fontSize: 60, paddingLeft: 20}}>NEON</h1>
             </div>
             <Gnb />
         </div>

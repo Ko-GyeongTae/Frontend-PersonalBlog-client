@@ -48,10 +48,9 @@
     text-justify: distribute;
 }
 .begin_repo {
-    width: 800px;
-    height: 400px;
+    width: 1000px;
+    height: 500px;
     background-color: white;
-    box-shadow: 5px 5px black;
-    background-image: url('https://github.githubassets.com/images/modules/site/social-cards/github-social.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('https://github.githubassets.com/images/modules/site/social-cards/github-social.png');
     object-fit: scale-down;
 }

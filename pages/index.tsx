@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import Head from 'next/head'
 import style from './index.module.css'
-import { Header, Grid, Checkbox } from 'semantic-ui-react'
 
 export default function Home() {
   const [position, setPosition] = useState(0);
@@ -53,7 +52,7 @@ export default function Home() {
         <div>
           <h1
             style={{
-              opacity: (position - 700) / 100,
+              opacity: (position - 900) / 200,
               transform: `translateX(${position - 950}px)`,
               color: 'black',
               fontSize: 60,
@@ -63,8 +62,8 @@ export default function Home() {
         </div>
         <div className={style.begin_repo}
           style={{
-            opacity: (position - 870) / 100,
-            backgroundPositionY: position / -7,
+            opacity: (position - 1020) / 100,
+            backgroundPositionY: position / -15,
             paddingTop: 40,
             textAlign: 'center',
             textJustify: '-moz-initial',
