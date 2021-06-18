@@ -7,7 +7,7 @@ export default function Profile() {
             <Head>
                 <title>NEON | Profile</title>
             </Head>
-            <div >
+            <div>
                 <img className={style.img} src={'https://avatars.githubusercontent.com/u/61784451?v=4'}></img>
             </div>
         </div>
