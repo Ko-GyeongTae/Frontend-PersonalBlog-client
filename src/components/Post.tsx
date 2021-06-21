@@ -4,13 +4,13 @@ export default function Post() {
 
     return (
         <div className={style.post}>
-            <div className={style.image}>
-                <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 140 }}/>
+               <div className={style.image}>
+                <img src={'/images/info.png'} alt='logo' style={{ display: 'block', width: 140 }} />
             </div>
-            <div className={style.content}>
+               <div className={style.content}>
                 <h2>Title</h2>
                 <p>description</p>
-            </div>
+               </div>
         </div>
     )
 }
