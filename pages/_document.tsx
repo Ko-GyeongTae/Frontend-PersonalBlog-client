@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang='ko'>
         <Head />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
         <body>
           <Main />
           <NextScript />
