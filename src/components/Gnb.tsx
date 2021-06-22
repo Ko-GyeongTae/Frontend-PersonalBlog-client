@@ -12,6 +12,8 @@ export default function Gnb(){
         activeItem = 'Android';
     } else if(router.pathname === '/Portfolio/Ios'){
         activeItem = 'Ios';
+    } else if(router.pathname === '/Portfolio/Program'){
+        activeItem = 'Program';
     }
     function goLink(e, data){
         if(data.name === 'Backend'){
@@ -22,6 +24,8 @@ export default function Gnb(){
             router.push('/Portfolio/Android');
         } else if(data.name === 'Ios'){
             router.push('/Portfolio/Ios');
+        } else if(data.name === 'Program'){
+            router.push('/Portfolio/Program');
         }
     }
     return (
@@ -44,6 +48,11 @@ export default function Gnb(){
             <Menu.Item
                 name="Ios"
                 active={activeItem === 'Ios'}
+                onClick={goLink}
+            />
+            <Menu.Item
+                name="Program"
+                active={activeItem === 'Program'}
                 onClick={goLink}
             />
         </Menu>
