@@ -6,7 +6,7 @@ import axios from 'axios';
 
 export default function Ios() {
     const [posts, setPosts] = useState([]);
-    const [isLoading, setIsLoading] = useState(false);
+    const [isLoading, setIsLoading] = useState<Boolean>(false);
     const preLoad = async () => {
         console.log(process.env.baseURL)
         await axios.get(`http://122.34.166.121:5010/crawl/category/A`)
