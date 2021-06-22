@@ -4,26 +4,12 @@ import axios from 'axios'
 import { useEffect, useState } from 'react'
 import { Loader } from 'semantic-ui-react';
 
-interface ProfileInterface {
-    avatar_url: String,
-    bio: String,
-    company: String,
-    created_at: Date,
-    email: String,
-    html_url: String,
-    id: String,
-    location: String,
-    login: String,
-    name: String,
-    updated_at: Date,
-    _id: String,
-}
-
 export default function Profile() {
     const [profile, setProfile] = useState<any>({});
     const [isLoading, setIsLoading] = useState<Boolean>(false);
     const PreLoad = async() => {
-        await axios.get(`http://122.34.166.121:5010/crawl/profile`)
+        console.log(process.env.NEXT_PUBLIC_BASE_URL);
+        await axios.get(`${process.env.NEXT_PUBLIC_BASE_URL}/crawl/profile`)
         .then(res => {
             setProfile(res.data[0]);
             console.log(res.data[0]);
