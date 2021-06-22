@@ -1,14 +1,23 @@
 export const getBadges = (name) => {
     if(name === 'javascript'){
-        return 'https://d1telmomo28umc.cloudfront.net/media/public/badges/js.png'
+        return '/badge/javascript.png';
     } 
     if(name === 'go'){
-        return 'https://d1telmomo28umc.cloudfront.net/media/public/badges/goBadge.png'
+        return '/badge/go.png';
     }
     if(name === 'typescript'){
-        return 'https://d1telmomo28umc.cloudfront.net/media/public/badges/typescript.png'
+        return '/badge/typescript.png';
     }
     if(name === 'python'){
-        return 'https://d1telmomo28umc.cloudfront.net/media/public/badges/python_l9Src2C.png'
+        return '/badge/python.png';
+    }
+    if(name === 'java'){
+        return '/badge/java.png';
+    }
+    if(name === undefined){
+        return '/badge/javascript.png';
+    }
+    if(name === 'c'){
+        return '/badge/c.png';
     }
 }
