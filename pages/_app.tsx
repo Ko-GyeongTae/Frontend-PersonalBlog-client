@@ -4,10 +4,16 @@ import Bottom from '../src/components/Bottom';
 import 'semantic-ui-css/semantic.min.css';
 import style from './app.module.css';
 import Sidebar from '../src/components/Sidebar';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-      <div style={{ width: '1000, auto', height: 'auto' }}>
+    <>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+      </Head>
+      <div style={{ width: '1000 auto', height: 'auto' }}>
         <Sidebar />
         <div style={{ width: 1000, margin: '0 auto', alignContent: 'center' }}>
           <Top />
@@ -15,6 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           <Bottom />
         </div>
       </div>
+    </>
   )
 }
 
