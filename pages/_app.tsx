@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
       </Head>
       <div style={{ width: '1000 auto', height: 'auto' }}>
         <Sidebar />
