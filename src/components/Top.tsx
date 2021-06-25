@@ -1,4 +1,3 @@
-import { Header, Item, Image } from "semantic-ui-react"
 import Gnb from "./Gnb"
 import styles from './Top.module.css'
 

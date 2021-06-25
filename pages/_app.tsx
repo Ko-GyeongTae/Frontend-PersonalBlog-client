@@ -2,7 +2,6 @@ import { AppProps } from 'next/app';
 import Top from '../src/components/Top';
 import Bottom from '../src/components/Bottom';
 import 'semantic-ui-css/semantic.min.css';
-import style from './app.module.css';
 import Sidebar from '../src/components/Sidebar';
 import Head from 'next/head';
 
